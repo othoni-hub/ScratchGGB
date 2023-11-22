@@ -1,0 +1,365 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="sE77@F*rXkEqXq0tCcCD" islocal="false" iscloud="false">coté1</variable>
+    <variable type="" id="jO}%t[[f7ltoeAi/qjUv" islocal="false" iscloud="false">h_A</variable>
+    <variable type="" id="w.()(5s;j~m][8`XqpX+" islocal="false" iscloud="false">A</variable>
+    <variable type="" id="@$:c0a-R*pP5j=Mw_E@r" islocal="false" iscloud="false">B</variable>
+    <variable type="" id="}`,q{QL)uK/,4(SPP~z{" islocal="false" iscloud="false">C</variable>
+  </variables>
+  <block type="event_whenflagclicked" id="w:1i[$^?J)c+^r0;Lpti" x="29" y="-231">
+    <field name="MY_ICON_BUTTON">./js/scratch/media/green-flag.svg</field>
+    <next>
+      <block type="data_setvariableto" id="G2cm$DEob1c~A5:7O,(8">
+        <field name="VARIABLE" id="w.()(5s;j~m][8`XqpX+" variabletype="">A</field>
+        <value name="VALUE">
+          <shadow type="text" id="0vF(-[0inK14G$(ho0;!">
+            <field name="TEXT">0</field>
+          </shadow>
+          <block type="procedures_call_return" id="]YLqZ=[v-6}G=rJHwU8a">
+            <mutation proccode="point %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+            <value name="ARG1">
+              <shadow type="text" id="*O4R})VJ=~3]FIib$uMs">
+                <field name="TEXT">1</field>
+              </shadow>
+            </value>
+            <value name="ARG2">
+              <shadow type="text" id="m6+P,^)FT~!8WRxv5`4+">
+                <field name="TEXT">2</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="data_setvariableto" id="%.sB6Q4Tm?yW)!dNeVl)">
+            <field name="VARIABLE" id="@$:c0a-R*pP5j=Mw_E@r" variabletype="">B</field>
+            <value name="VALUE">
+              <shadow type="text" id="o9*|^b1-:#6at=;xu/eN">
+                <field name="TEXT">0</field>
+              </shadow>
+              <block type="procedures_call_return" id="aX2_6:`eQKQQ~H}N$}HP">
+                <mutation proccode="point %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+                <value name="ARG1">
+                  <shadow type="text" id="[o7G.)?96o07U,!/0b_u">
+                    <field name="TEXT">0</field>
+                  </shadow>
+                </value>
+                <value name="ARG2">
+                  <shadow type="text" id="rp:v,?Nfl#+Xe^`14lYc">
+                    <field name="TEXT">-3</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="data_setvariableto" id="+2[FGU{n~SWe.Io%x,Br">
+                <field name="VARIABLE" id="}`,q{QL)uK/,4(SPP~z{" variabletype="">C</field>
+                <value name="VALUE">
+                  <shadow type="text" id="$Wa7ArNWU/B-W=)g!aZ6">
+                    <field name="TEXT">0</field>
+                  </shadow>
+                  <block type="procedures_call_return" id="k,J|I]j@%Wxe(RBK56EX">
+                    <mutation proccode="point %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+                    <value name="ARG1">
+                      <shadow type="text" id="Guq!`sn4)n1*{/GB.0P$">
+                        <field name="TEXT">6</field>
+                      </shadow>
+                    </value>
+                    <value name="ARG2">
+                      <shadow type="text" id="ld5$s`gF,_e}QH.J?n(R">
+                        <field name="TEXT">-1</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="data_setvariableto" id="9!`mhT%nbzoXvn(5caA*">
+                    <field name="VARIABLE" id="sE77@F*rXkEqXq0tCcCD" variabletype="">coté1</field>
+                    <value name="VALUE">
+                      <shadow type="text" id="-,poi:[bX?ZQ4!pmc5:2">
+                        <field name="TEXT">0</field>
+                      </shadow>
+                      <block type="procedures_call_return" id="o#Ht#Y1E!17HJ5lq];=s">
+                        <mutation proccode="droite %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+                        <value name="ARG1">
+                          <shadow type="text" id="1W;E~{y4!G@BrOWu|.^[">
+                            <field name="TEXT">A</field>
+                          </shadow>
+                        </value>
+                        <value name="ARG2">
+                          <shadow type="text" id="5@6;ec{9mw#.k!xF#S;u">
+                            <field name="TEXT">B</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="procedures_definition" id=".d*V2)!yvw5Ku)nliVpO" x="369" y="-209">
+    <statement name="custom_block">
+      <block type="procedures_prototype" id="z_N(zvvij)qH0xqpIOI^">
+        <mutation proccode="point %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" argumentnames="[&quot;x&quot;,&quot;y&quot;]" argumentdefaults="[&quot;&quot;,&quot;&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="argument_reporter_string_number" id="e^jt[-mG|^sdk){i@X$U">
+            <field name="VALUE">x</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="argument_reporter_string_number" id="YIuqNQ:m//5`M;DfHhB)">
+            <field name="VALUE">y</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <next>
+      <block type="ggb_point" id="W7VV=V36ST{ADVTc#rze">
+        <value name="NOM">
+          <shadow type="text" id="o#_uZHbX]fQ}$TT^$!eA">
+            <field name="TEXT"></field>
+          </shadow>
+        </value>
+        <value name="X">
+          <shadow type="math_number" id="K;N,tZS#5b4L//[W.8Pn">
+            <field name="NUM">1</field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="y`w=pH,ppMGM54D$/gI!">
+            <field name="VALUE">x</field>
+          </block>
+        </value>
+        <value name="Y">
+          <shadow type="math_number" id="J7B5Is@W:c=Xnsn0U{pX">
+            <field name="NUM">2</field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="{Sbi$P=Lj-_P0cL`r(xN">
+            <field name="VALUE">y</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+  <block type="procedures_definition" id="$aT0Nf}jRxKZ:g9X21[1" x="385" y="-49">
+    <statement name="custom_block">
+      <block type="procedures_prototype" id="-k5-+]P*u7JWZO?ja]J3">
+        <mutation proccode="droite %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" argumentnames="[&quot;A2&quot;,&quot;B2&quot;]" argumentdefaults="[&quot;&quot;,&quot;&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="argument_reporter_string_number" id="wp;PSGyz-VAL|Tvsw7fH">
+            <field name="VALUE">A2</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="argument_reporter_string_number" id="l:fa8tPsm43Sg#QWmyqV">
+            <field name="VALUE">B2</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <next>
+      <block type="ggb_commande_2pts" id="4=]7q[yscWLIGGW`mMft">
+        <field name="OP">Line</field>
+        <value name="NOM">
+          <shadow type="text" id="}_[(lJ0zM#}E/OH!7;1@">
+            <field name="TEXT"></field>
+          </shadow>
+        </value>
+        <value name="OBJ1">
+          <shadow type="text" id="RcqqW1]KStxA$,XCt5_C">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="+-4(^0WDN60X4xVb0*Oh">
+            <field name="VALUE">A2</field>
+          </block>
+        </value>
+        <value name="OBJ2">
+          <shadow type="text" id=")8-)i=I+eoOsEPTVP5u3">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="LLeGO~AG-2V85opZV^(G">
+            <field name="VALUE">B2</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+  <block type="data_variable" id="]{Q(25EMR3h-#{uO*9*|" x="210" y="84">
+    <field name="VARIABLE" id="w.()(5s;j~m][8`XqpX+" variabletype="">A</field>
+  </block>
+  <block type="data_variable" id="HE,]#cAG`bbV5=fri^w*" x="298" y="81">
+    <field name="VARIABLE" id="@$:c0a-R*pP5j=Mw_E@r" variabletype="">B</field>
+  </block>
+  <block type="ggb_commande_2pts" id="fz3?Ho[kU+#,RXmJ77h," x="36" y="237">
+    <field name="OP">Line</field>
+    <value name="NOM">
+      <shadow type="text" id="KS{Gf2_b-l|H}U?mpIJV">
+        <field name="TEXT">d</field>
+      </shadow>
+    </value>
+    <value name="OBJ1">
+      <shadow type="text" id="[}32+7/i%kIlxB+wVq4[">
+        <field name="TEXT"></field>
+      </shadow>
+      <block type="data_variable" id="iVuK]HHw5717H/t?Z9;2">
+        <field name="VARIABLE" id="w.()(5s;j~m][8`XqpX+" variabletype="">A</field>
+      </block>
+    </value>
+    <value name="OBJ2">
+      <shadow type="text" id="~iA|(@idMGd[y+XBJ(ny">
+        <field name="TEXT"></field>
+      </shadow>
+      <block type="data_variable" id="YYJw3|PW4IZnEMK/)37(">
+        <field name="VARIABLE" id="@$:c0a-R*pP5j=Mw_E@r" variabletype="">B</field>
+      </block>
+    </value>
+  </block>
+  <block type="procedures_definition" id="^Gt|a]1VkFuEXUR@We{f" x="308" y="320">
+    <statement name="custom_block">
+      <block type="procedures_prototype" id="/5Ud}nOV=Ox=%SF%=p78">
+        <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" argumentnames="[&quot;S&quot;,&quot;coté&quot;]" argumentdefaults="[&quot;&quot;,&quot;&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="argument_reporter_string_number" id="mmm4jj7@::6@CPdCSAGd">
+            <field name="VALUE">S</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="argument_reporter_string_number" id="Ya(+!z7/^3;#4[Igbi^}">
+            <field name="VALUE">coté</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <next>
+      <block type="ggb_commande_2pts" id="ZA9Vd!{L|2+]NQ`BsWiM">
+        <field name="OP">PerpendicularLine</field>
+        <value name="NOM">
+          <shadow type="text" id="i:Pt2/T?;{o.01+GT|k/">
+            <field name="TEXT"></field>
+          </shadow>
+        </value>
+        <value name="OBJ1">
+          <shadow type="text" id="F^:Y@*@N_+Cg]:nqSc-8">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="mIgG5!-|@P.$H9L3Rd+F">
+            <field name="VALUE">S</field>
+          </block>
+        </value>
+        <value name="OBJ2">
+          <shadow type="text" id="vOT3B_hZAeF*S;5Az{4Q">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="LIi5r%$ks3Wx@?r(8gUu">
+            <field name="VALUE">coté</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+  <block type="data_setvariableto" id="5[Lz6wjV(Be8C.Jvwg7o" x="77" y="464">
+    <field name="VARIABLE" id="jO}%t[[f7ltoeAi/qjUv" variabletype="">h_A</field>
+    <value name="VALUE">
+      <shadow type="text" id="L`gA|0jjMrg,jK}(51Kw">
+        <field name="TEXT">0</field>
+      </shadow>
+      <block type="procedures_call_return" id="N!ia-M|@~#2pUy562_s[">
+        <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="text" id="2[%Zde+|h(*~bO5O3]NK">
+            <field name="TEXT">A</field>
+          </shadow>
+          <block type="data_variable" id="S[=IYVj64njDpmF?K1tf">
+            <field name="VARIABLE" id="w.()(5s;j~m][8`XqpX+" variabletype="">A</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow type="text" id="hqg]N=*LOQI|(0Vkonl)">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="procedures_call_return" id="lu$i]`2:.xa(}]V`6=@[">
+            <mutation proccode="droite %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+            <value name="ARG1">
+              <shadow type="text" id="LqiYpX2,,/4n){U%p]0V">
+                <field name="TEXT">A</field>
+              </shadow>
+              <block type="data_variable" id="$dnlpWG,_sMj2Lw[/6#v">
+                <field name="VARIABLE" id="@$:c0a-R*pP5j=Mw_E@r" variabletype="">B</field>
+              </block>
+            </value>
+            <value name="ARG2">
+              <shadow type="text" id="7lIZ1m$A0^G_;,6nfy(~">
+                <field name="TEXT">B</field>
+              </shadow>
+              <block type="data_variable" id="3gs2B/)%[aVzO??@f$%)">
+                <field name="VARIABLE" id="}`,q{QL)uK/,4(SPP~z{" variabletype="">C</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="ggb_point" id="r,V.[8Z:blj$_L29(Qfn" x="0" y="552">
+    <value name="NOM">
+      <shadow type="text" id="+C.sF)EpF+p7{#W?UHj_">
+        <field name="TEXT">B</field>
+      </shadow>
+    </value>
+    <value name="X">
+      <shadow type="math_number" id="./cZ9BO-d_CbL9#7t!UP">
+        <field name="NUM">0</field>
+      </shadow>
+    </value>
+    <value name="Y">
+      <shadow type="math_number" id="e`BYu~6{uh`hf*HG}ue)">
+        <field name="NUM">-2</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="ggb_point" id="/8-0]H:s}dbe706vk-Hd">
+        <value name="NOM">
+          <shadow type="text" id="=v-[SrMQ4s(9R~);XTB(">
+            <field name="TEXT">C</field>
+          </shadow>
+        </value>
+        <value name="X">
+          <shadow type="math_number" id="%ld@_A]l#MsPc8gHVoDr">
+            <field name="NUM">6</field>
+          </shadow>
+        </value>
+        <value name="Y">
+          <shadow type="math_number" id="=Aa$:+/skHj#Eg!LN!~w">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+      </block>
+    </next>
+  </block>
+  <block type="data_setvariableto" id="Q(y6]%]Ug*Y6ZdT[Tn)_" x="0" y="704">
+    <field name="VARIABLE" id="sE77@F*rXkEqXq0tCcCD" variabletype="">coté1</field>
+    <value name="VALUE">
+      <shadow type="text" id=",6:84S*}Hc]v%VL)Y(*T">
+        <field name="TEXT">0</field>
+      </shadow>
+      <block type="procedures_call_return" id="7NW4`m.]]jStEe{uhKYm">
+        <mutation proccode="droite %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="text" id=":?q*:q6da]@=m(?hUdxV">
+            <field name="TEXT">A</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="text" id="E/cDj5n)C?vsXJyuj/Mr">
+            <field name="TEXT">B</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="data_variable" id="xjHB#^2e0L={u5s1`{Ru" x="0" y="808">
+    <field name="VARIABLE" id="sE77@F*rXkEqXq0tCcCD" variabletype="">coté1</field>
+  </block>
+</xml>

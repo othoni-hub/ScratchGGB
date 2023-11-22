@@ -1,0 +1,1053 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="zu4B.?|}#Ds,312sZ}Ca" islocal="false" iscloud="false">h_1</variable>
+    <variable type="" id="/CQB*.RuxR2V6$wl|Eg4" islocal="false" iscloud="false">h_2</variable>
+    <variable type="" id="b!q0R[p?KlG6O@cK2LCF" islocal="false" iscloud="false">h_3</variable>
+    <variable type="" id="lEsjpwqCE1T@Nl)xiqQ[" islocal="false" iscloud="false">H</variable>
+  </variables>
+  <block type="event_whenflagclicked" id="w:1i[$^?J)c+^r0;Lpti" x="0" y="0">
+    <field name="MY_ICON_BUTTON">./js/scratch/media/green-flag.svg</field>
+    <next>
+      <block type="ggb_point" id=".^H.D4;NT~Kpp(giTolS">
+        <value name="NOM">
+          <shadow type="text" id=".@RM.*%JdE}:sx3R5QHn">
+            <field name="TEXT">A</field>
+          </shadow>
+        </value>
+        <value name="X">
+          <shadow type="math_number" id="WN]|LKXRM,Pn($C41la-">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="Y">
+          <shadow type="math_number" id="DJ!-YskJ|e!2f^%*~Zea">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="ggb_point" id="+vEDsnQQJbZt|0cZFdj{">
+            <value name="NOM">
+              <shadow type="text" id=";X[SMy.Hxe;j[C?%8U9y">
+                <field name="TEXT">B</field>
+              </shadow>
+            </value>
+            <value name="X">
+              <shadow type="math_number" id="fOLIN0XH4MP4@5X]=+$a">
+                <field name="NUM">4</field>
+              </shadow>
+            </value>
+            <value name="Y">
+              <shadow type="math_number" id="ndep#fJ5uvxhL7fC_Y+@">
+                <field name="NUM">2</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="ggb_point" id="|rjcWx,C(hS!R3}{(Yy3">
+                <value name="NOM">
+                  <shadow type="text" id="9,dh?wRm(y/w9oXxe)LV">
+                    <field name="TEXT">C</field>
+                  </shadow>
+                </value>
+                <value name="X">
+                  <shadow type="math_number" id="(K2.bQ3Mw.CTTE;.(([)">
+                    <field name="NUM">1</field>
+                  </shadow>
+                </value>
+                <value name="Y">
+                  <shadow type="math_number" id="nhiiOf/+J)O[c:;){P_f">
+                    <field name="NUM">6</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="ggb_commande_2pts" id="|j9{Ph=P|odHI0]Wi$G-">
+                    <field name="OP">Segment</field>
+                    <value name="NOM">
+                      <shadow type="text" id="Lk}A|/)1^mU/:UwV(?O^">
+                        <field name="TEXT">c1</field>
+                      </shadow>
+                    </value>
+                    <value name="OBJ1">
+                      <shadow type="text" id="-F|s!~,]{d-_27eE7evr">
+                        <field name="TEXT">B</field>
+                      </shadow>
+                    </value>
+                    <value name="OBJ2">
+                      <shadow type="text" id="{2fl{fiHyC6;-nNdaqP)">
+                        <field name="TEXT">C</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="ggb_commande_2pts" id="8DqJfEz?+7TPDIa63Iko">
+                        <field name="OP">Segment</field>
+                        <value name="NOM">
+                          <shadow type="text" id="R.PQ3hz%`MxkG.,?A9vw">
+                            <field name="TEXT">c2</field>
+                          </shadow>
+                        </value>
+                        <value name="OBJ1">
+                          <shadow type="text" id="I*,YcTOAAi+#?9V5B93B">
+                            <field name="TEXT">A</field>
+                          </shadow>
+                        </value>
+                        <value name="OBJ2">
+                          <shadow type="text" id="KCqE!sm?P4u^WO4--/;5">
+                            <field name="TEXT">C</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="ggb_commande_2pts" id="T-pQQ$Nu.E=qPn84$%I.">
+                            <field name="OP">Segment</field>
+                            <value name="NOM">
+                              <shadow type="text" id="~HZh1TJ`{v21]m0l{m40">
+                                <field name="TEXT">c3</field>
+                              </shadow>
+                            </value>
+                            <value name="OBJ1">
+                              <shadow type="text" id="#64NV^#7|Es`T9^}dxY0">
+                                <field name="TEXT">A</field>
+                              </shadow>
+                            </value>
+                            <value name="OBJ2">
+                              <shadow type="text" id="WYF+lG[)b.q_|]D_8.N#">
+                                <field name="TEXT">B</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="procedures_call" id="}7N@3uE@kkW13a5X54gd">
+                                <mutation proccode="orthocentre %s %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;,&quot;ARG3&quot;]" warp="false"></mutation>
+                                <value name="ARG1">
+                                  <shadow type="text" id="wXr0OpVi5tTO2bUP0pw6">
+                                    <field name="TEXT">A</field>
+                                  </shadow>
+                                </value>
+                                <value name="ARG2">
+                                  <shadow type="text" id="In2fE_4-Z)=?*Y}Oo(mi">
+                                    <field name="TEXT">B</field>
+                                  </shadow>
+                                </value>
+                                <value name="ARG3">
+                                  <shadow type="text" id=":`Li|B1+U1LuSHBVy?((">
+                                    <field name="TEXT">C</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="procedures_call" id="JGI^.%M/d8VS{x,^n`7M">
+                                    <mutation proccode="gravité %s %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;,&quot;ARG3&quot;]" warp="false"></mutation>
+                                    <value name="ARG1">
+                                      <shadow type="text" id="5ChX4KEd{A{)?TPk%Wbj">
+                                        <field name="TEXT">A</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="ARG2">
+                                      <shadow type="text" id="z*?i^v@Ao-8SJWfaey0i">
+                                        <field name="TEXT">B</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="ARG3">
+                                      <shadow type="text" id="RURB[4f5qk!,LdCqYV5c">
+                                        <field name="TEXT">C</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="procedures_definition" id="I3@8f+*9Ni?f4S5~S.6@" x="485" y="44">
+    <statement name="custom_block">
+      <block type="procedures_prototype" id="/E#=a6vO[ho}xRBJ/.OV">
+        <mutation proccode="gravité %s %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;,&quot;ARG3&quot;]" argumentnames="[&quot;A1&quot;,&quot;A2&quot;,&quot;A3&quot;]" argumentdefaults="[&quot;&quot;,&quot;&quot;,&quot;&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="argument_reporter_string_number" id="5`2ED||NE!,AEQ*6U6oT">
+            <field name="VALUE">A1</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="argument_reporter_string_number" id="*E{mjn@ItkmtB#6DRtUZ">
+            <field name="VALUE">A2</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <shadow type="argument_reporter_string_number" id=")L0YlVsv:QMz9;j`(]s8">
+            <field name="VALUE">A3</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <next>
+      <block type="ggb_commande_2pts" id="!J3Z05ko*#T.8H.3RI*Q">
+        <field name="OP">Segment</field>
+        <value name="NOM">
+          <shadow type="text" id="l(8^C.n$(~Te,biT5d*B">
+            <field name="TEXT">s1</field>
+          </shadow>
+        </value>
+        <value name="OBJ1">
+          <shadow type="text" id="XTOcw`wHx2{r8/M)K9lQ">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="Ue(*f1I1x6OrU?Z(d}.Y">
+            <field name="VALUE">A3</field>
+          </block>
+        </value>
+        <value name="OBJ2">
+          <shadow type="text" id="6)PUc(4nX#148r`~8vtv">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="P0z*aEe?Spz7HMbqdBkJ">
+            <field name="VALUE">A2</field>
+          </block>
+        </value>
+        <next>
+          <block type="ggb_commande_2pts" id="#?)uS7mUX*Uw$faDWYCj">
+            <field name="OP">Segment</field>
+            <value name="NOM">
+              <shadow type="text" id="17-k$+-5R0MIASd+ndz.">
+                <field name="TEXT">s2</field>
+              </shadow>
+            </value>
+            <value name="OBJ1">
+              <shadow type="text" id="?-CK2p05E%bsvKLfK;N|">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="argument_reporter_string_number" id="jP;#y8FJ=.3tn34@^Dq%">
+                <field name="VALUE">A3</field>
+              </block>
+            </value>
+            <value name="OBJ2">
+              <shadow type="text" id="OB-$nV*p3aOW]28,WiV%">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="argument_reporter_string_number" id="tj|)`BK1ZkI}l_6K`fws">
+                <field name="VALUE">A1</field>
+              </block>
+            </value>
+            <next>
+              <block type="ggb_commande_2pts" id="L1P9E)rf:f18%WJO|jf|">
+                <field name="OP">Segment</field>
+                <value name="NOM">
+                  <shadow type="text" id="7)+vF{Q81-D04e}6U0*]">
+                    <field name="TEXT">s3</field>
+                  </shadow>
+                </value>
+                <value name="OBJ1">
+                  <shadow type="text" id="h6*u3UR=iB;Afoj|Ea.r">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="argument_reporter_string_number" id="$Zvtmpzu+K)qEb04tG|B">
+                    <field name="VALUE">A2</field>
+                  </block>
+                </value>
+                <value name="OBJ2">
+                  <shadow type="text" id="{`Yt/+8G]Qd?(B3ZwN3m">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="argument_reporter_string_number" id="6v_zbRI}7Mt:HA4YhYAl">
+                    <field name="VALUE">A1</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="ggb_commande_2pts" id="@Bcegk:4WCH!E8=+~ZrV">
+                    <field name="OP">Midpoint</field>
+                    <value name="NOM">
+                      <shadow type="text" id="KemnOW9/QdZql=MP4-q1">
+                        <field name="TEXT">M1</field>
+                      </shadow>
+                    </value>
+                    <value name="OBJ1">
+                      <shadow type="text" id="ER}I2|YWu|oPU#f^?9gf">
+                        <field name="TEXT"></field>
+                      </shadow>
+                      <block type="argument_reporter_string_number" id="A+yRpV%#d%7M8/~F(ni{">
+                        <field name="VALUE">A2</field>
+                      </block>
+                    </value>
+                    <value name="OBJ2">
+                      <shadow type="text" id="V9z!wVTd]8:/s*!qzkJU">
+                        <field name="TEXT"></field>
+                      </shadow>
+                      <block type="argument_reporter_string_number" id="V*n%?kIplR`qO-UHu:zr">
+                        <field name="VALUE">A3</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="ggb_commande_2pts" id="a1Ue5ig(MPr?DmQker{7">
+                        <field name="OP">Midpoint</field>
+                        <value name="NOM">
+                          <shadow type="text" id="+N)IhxjFf:2qG*]b82B|">
+                            <field name="TEXT">M2</field>
+                          </shadow>
+                        </value>
+                        <value name="OBJ1">
+                          <shadow type="text" id="QlSwTv2JI=)5P@T0p|xP">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="argument_reporter_string_number" id="s+T1!vX6xsqUCPq~hd5|">
+                            <field name="VALUE">A3</field>
+                          </block>
+                        </value>
+                        <value name="OBJ2">
+                          <shadow type="text" id="-YnT$y9=Ax[:j|Nhn~_-">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="argument_reporter_string_number" id="oczdx~w%.E^6jsmuyUa@">
+                            <field name="VALUE">A1</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="ggb_commande_2pts" id="gb**YLU$L^9=d.=0fWb!">
+                            <field name="OP">Midpoint</field>
+                            <value name="NOM">
+                              <shadow type="text" id="Z4(wo=G*j1eA!1M=0I5@">
+                                <field name="TEXT">M3</field>
+                              </shadow>
+                            </value>
+                            <value name="OBJ1">
+                              <shadow type="text" id=";-Ko7{d/RnzhR/;?xZI{">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="argument_reporter_string_number" id="dcMqt@O3Ly_$GFoiEKKG">
+                                <field name="VALUE">A2</field>
+                              </block>
+                            </value>
+                            <value name="OBJ2">
+                              <shadow type="text" id="j-U[/(vkHuD(/KtR7wmd">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="argument_reporter_string_number" id="r!--N.B:aCa*;*O$s30Y">
+                                <field name="VALUE">A1</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="ggb_commande_2pts" id="U]+AV`%~RvUbL2dh`bqj">
+                                <field name="OP">Segment</field>
+                                <value name="NOM">
+                                  <shadow type="text" id="y|jC0]S9}*,4C:w+)+tg">
+                                    <field name="TEXT">m1</field>
+                                  </shadow>
+                                </value>
+                                <value name="OBJ1">
+                                  <shadow type="text" id="?ZCgePqPGS#;Xo:]RvV.">
+                                    <field name="TEXT">A</field>
+                                  </shadow>
+                                  <block type="argument_reporter_string_number" id="%YnMYpPVhTbEJ_S3_4ya">
+                                    <field name="VALUE">A1</field>
+                                  </block>
+                                </value>
+                                <value name="OBJ2">
+                                  <shadow type="text" id="Sq1/e,AMD!2u2yg,UM}*">
+                                    <field name="TEXT">M1</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="ggb_commande_2pts" id="?BpZ(nynAPcY~}C$lZWL">
+                                    <field name="OP">Segment</field>
+                                    <value name="NOM">
+                                      <shadow type="text" id="qEwqt$9RJ%^.Z4u[JV@%">
+                                        <field name="TEXT">m2</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="OBJ1">
+                                      <shadow type="text" id="[+:.Jg9;F}{sV?2%l`8K">
+                                        <field name="TEXT"></field>
+                                      </shadow>
+                                      <block type="argument_reporter_string_number" id="8nMx,slRQrgRC,J!6CV;">
+                                        <field name="VALUE">A2</field>
+                                      </block>
+                                    </value>
+                                    <value name="OBJ2">
+                                      <shadow type="text" id="J2$~JS4PyAQgNd7B3J_!">
+                                        <field name="TEXT">M2</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="ggb_commande_2pts" id="P.r.?A#.kK3XPu0lJj}w">
+                                        <field name="OP">Segment</field>
+                                        <value name="NOM">
+                                          <shadow type="text" id="ieDp)=AH/XExIoQ;Zvj^">
+                                            <field name="TEXT">m3</field>
+                                          </shadow>
+                                        </value>
+                                        <value name="OBJ1">
+                                          <shadow type="text" id="Y|8q[u`RLI[=H;dx1fa;">
+                                            <field name="TEXT"></field>
+                                          </shadow>
+                                          <block type="argument_reporter_string_number" id="1!uxBfOkG%}+@e/kiw~;">
+                                            <field name="VALUE">A3</field>
+                                          </block>
+                                        </value>
+                                        <value name="OBJ2">
+                                          <shadow type="text" id="$AUvpb2O6[a8wxl`mz6~">
+                                            <field name="TEXT">M3</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="ggb_intersections" id="d9/Hg]j-.cEu-qS)Z8Ag">
+                                            <field name="OP">Intersection</field>
+                                            <value name="NOM">
+                                              <shadow type="text" id="HI2m)T~%?SC-.UVL(OGK">
+                                                <field name="TEXT"></field>
+                                              </shadow>
+                                            </value>
+                                            <value name="OBJ1">
+                                              <shadow type="text" id="!Vl/2K[sJys?Kp.2h+r$">
+                                                <field name="TEXT">m1</field>
+                                              </shadow>
+                                            </value>
+                                            <value name="OBJ2">
+                                              <shadow type="text" id="3D,:]%#}Tk+l/}|aBfI(">
+                                                <field name="TEXT">m2</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="argument_reporter_string_number" id="8JTii{U,+WjVC9.4_9Nl" x="756" y="160">
+    <field name="VALUE">A_3</field>
+  </block>
+  <block type="argument_reporter_string_number" id="%olnpnG.V5WX^$34OSSl" x="756" y="208">
+    <field name="VALUE">A_3</field>
+  </block>
+  <block type="argument_reporter_string_number" id="Scz?MU:2x]2Ii{C|AI@A" x="732" y="352">
+    <field name="VALUE">A2</field>
+  </block>
+  <block type="argument_reporter_string_number" id="/jEv,gDI_xwIt|.B!n}W" x="732" y="400">
+    <field name="VALUE">A3</field>
+  </block>
+  <block type="ggb_commande_2pts" id="#QsqRVKC%!B_,e%cJsnZ" x="1" y="600">
+    <field name="OP">Line</field>
+    <value name="NOM">
+      <shadow type="text" id="8,O9Y~f#R]]K,olU9xC_">
+        <field name="TEXT">d</field>
+      </shadow>
+    </value>
+    <value name="OBJ1">
+      <shadow type="text" id="ViYWv8HtM8GqbTyh|0d9">
+        <field name="TEXT"></field>
+      </shadow>
+      <block type="procedures_call_return" id="{^8G1qROW~wp@Y]{HAI`">
+        <mutation proccode="orthocentre %s %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;,&quot;ARG3&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="text" id="Z][wIIBH4BE^0$Oy:hk0">
+            <field name="TEXT">A</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="text" id="AAcpEU5JE]IC^hMwgTPx">
+            <field name="TEXT">B</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <shadow type="text" id="PZxr=ZP7M-{}Pmvu/G|]">
+            <field name="TEXT">C</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+    <value name="OBJ2">
+      <shadow type="text" id="3[,kRdEpTFO0lgh4|yyz">
+        <field name="TEXT"></field>
+      </shadow>
+      <block type="procedures_call_return" id="Vs8a.SE,2iNbs~-Y]v8T">
+        <mutation proccode="gravité %s %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;,&quot;ARG3&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="text" id="+BvFL(4icV,hL7~IkW9i">
+            <field name="TEXT">A</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="text" id="1%CqUOiqdgbNsrjgS1)s">
+            <field name="TEXT">B</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <shadow type="text" id="xnb3eY}{m~g^;Q(*{^0u">
+            <field name="TEXT">C</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="procedures_definition" id=":A/D$-nlMFo#2HRds^,V" x="487" y="652">
+    <statement name="custom_block">
+      <block type="procedures_prototype" id=":vG;I?K0H`(hKoJDqjGX">
+        <mutation proccode="orthocentre %s %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;,&quot;ARG3&quot;]" argumentnames="[&quot;A_1&quot;,&quot;A_2&quot;,&quot;A_3&quot;]" argumentdefaults="[&quot;&quot;,&quot;&quot;,&quot;&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="argument_reporter_string_number" id="@X+=Cw`.*oAfdAk`{$-*">
+            <field name="VALUE">A_1</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="argument_reporter_string_number" id="7_I;~F@^/m,TU+|S:^{a">
+            <field name="VALUE">A_2</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <shadow type="argument_reporter_string_number" id="t`_cCcJ|:4-~f).7Tu(_">
+            <field name="VALUE">A_3</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <next>
+      <block type="ggb_commande_2pts" id="?#u0UbHF^FydYO?hTk,O">
+        <field name="OP">Segment</field>
+        <value name="NOM">
+          <shadow type="text" id="br_fc?oTA/$no0Gp=8;2">
+            <field name="TEXT">s1</field>
+          </shadow>
+        </value>
+        <value name="OBJ1">
+          <shadow type="text" id="CgVR!D%Teu)PmGYF+;/9">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="c/iIzzHt1LVH|fE}+oba">
+            <field name="VALUE">A_3</field>
+          </block>
+        </value>
+        <value name="OBJ2">
+          <shadow type="text" id="0-d#.T1mW9%gGXMVU%Ap">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="H}`v.E=:3_:~%BAN,aYC">
+            <field name="VALUE">A_2</field>
+          </block>
+        </value>
+        <next>
+          <block type="ggb_commande_2pts" id="^NE2:0jpzT?-3OjF$?ZH">
+            <field name="OP">Segment</field>
+            <value name="NOM">
+              <shadow type="text" id="u683Onl)r{2PP75~p_!E">
+                <field name="TEXT">s2</field>
+              </shadow>
+            </value>
+            <value name="OBJ1">
+              <shadow type="text" id="cKC,rGBAYzPq?qfj/FG4">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="argument_reporter_string_number" id="L1GGtHl)-D3:f/mBczbu">
+                <field name="VALUE">A_3</field>
+              </block>
+            </value>
+            <value name="OBJ2">
+              <shadow type="text" id="DabsB}?qk4qF~+[Fhr-M">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="argument_reporter_string_number" id="KsD0E/J^eW,1IdL]~}cW">
+                <field name="VALUE">A_1</field>
+              </block>
+            </value>
+            <next>
+              <block type="ggb_commande_2pts" id="7,N*90Y*Oh0JwF))YC8S">
+                <field name="OP">Segment</field>
+                <value name="NOM">
+                  <shadow type="text" id="ah]dl9W3FjC}KXJ{}uVH">
+                    <field name="TEXT">s3</field>
+                  </shadow>
+                </value>
+                <value name="OBJ1">
+                  <shadow type="text" id="TmCOEN{DW^^q]Z~4[`4y">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="argument_reporter_string_number" id="=:G%W#IBo`:V=H}da)A#">
+                    <field name="VALUE">A_2</field>
+                  </block>
+                </value>
+                <value name="OBJ2">
+                  <shadow type="text" id="N;^fX?A$UuqZ-8:jsG,:">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="argument_reporter_string_number" id="*}n{U09Xc7ypVDjF$.RJ">
+                    <field name="VALUE">A_1</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="ggb_commande_2pts" id="o4tCLsxR=,Fq6Lo[:1`$">
+                    <field name="OP">PerpendicularLine</field>
+                    <value name="NOM">
+                      <shadow type="text" id="xLHyElp2j4BnJ;Iz5~CX">
+                        <field name="TEXT">h1</field>
+                      </shadow>
+                    </value>
+                    <value name="OBJ1">
+                      <shadow type="text" id="MZNaD]L@V2+-*-v/Oa,a">
+                        <field name="TEXT">A</field>
+                      </shadow>
+                      <block type="argument_reporter_string_number" id="c|wiD[5|OWN;:?,~6|0f">
+                        <field name="VALUE">A_1</field>
+                      </block>
+                    </value>
+                    <value name="OBJ2">
+                      <shadow type="text" id="xljUh/YpC@a4o2oJ18-m">
+                        <field name="TEXT">s1</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="ggb_commande_2pts" id="]N/AcuXIio1S%H~U?0el">
+                        <field name="OP">PerpendicularLine</field>
+                        <value name="NOM">
+                          <shadow type="text" id=";$EAm:X2-LH{$+75d/h|">
+                            <field name="TEXT">h2</field>
+                          </shadow>
+                        </value>
+                        <value name="OBJ1">
+                          <shadow type="text" id="cH2-k,PihxMU#OV(+=A@">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="argument_reporter_string_number" id="7Vsk)qa,*7o;W0gOOckC">
+                            <field name="VALUE">A_2</field>
+                          </block>
+                        </value>
+                        <value name="OBJ2">
+                          <shadow type="text" id="}AM4T2y`km`/6E8WUT^%">
+                            <field name="TEXT">s2</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="ggb_commande_2pts" id="3Z(R$)!s_vQ7Ctk,2r~i">
+                            <field name="OP">PerpendicularLine</field>
+                            <value name="NOM">
+                              <shadow type="text" id="-zC^{ggcIr0]s8j=T]y$">
+                                <field name="TEXT">h3</field>
+                              </shadow>
+                            </value>
+                            <value name="OBJ1">
+                              <shadow type="text" id="1vQWg!r2cbJ|$:0)x?$v">
+                                <field name="TEXT"></field>
+                              </shadow>
+                              <block type="argument_reporter_string_number" id="NKGuP|*yWJiNQB3_MNZ;">
+                                <field name="VALUE">A_3</field>
+                              </block>
+                            </value>
+                            <value name="OBJ2">
+                              <shadow type="text" id="VE4t%:6#3=C{8n:.4PIr">
+                                <field name="TEXT">s3</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="ggb_intersections" id="al{j_R]]]]afiumPY$+w">
+                                <field name="OP">Intersection</field>
+                                <value name="NOM">
+                                  <shadow type="text" id="J9]Ch;S%qUgU5Fl:^`TD">
+                                    <field name="TEXT"></field>
+                                  </shadow>
+                                </value>
+                                <value name="OBJ1">
+                                  <shadow type="text" id="g!j8oY%HE@C1by4`XJz@">
+                                    <field name="TEXT">h1</field>
+                                  </shadow>
+                                </value>
+                                <value name="OBJ2">
+                                  <shadow type="text" id="Il^1e(Dj[eQ?8.63SP5c">
+                                    <field name="TEXT">h2</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="argument_reporter_string_number" id="vY61xnPu(=$]E1H5R2*u" x="837" y="680">
+    <field name="VALUE">A_1</field>
+  </block>
+  <block type="argument_reporter_string_number" id="Y6J|`4)1!7WFR_-c7@%3" x="837" y="680">
+    <field name="VALUE">A_2</field>
+  </block>
+  <block type="argument_reporter_string_number" id="4A$MMc-H+@4.66[B)4mo" x="837" y="680">
+    <field name="VALUE">A_3</field>
+  </block>
+  <block type="procedures_definition" id="#SOO;1;k[W9eIz6@6X+X" x="0" y="728">
+    <statement name="custom_block">
+      <block type="procedures_prototype" id="3hZBK[Ka)r:;_|.L+%bw">
+        <mutation proccode="inter %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" argumentnames="[&quot;d1&quot;,&quot;d2&quot;]" argumentdefaults="[&quot;&quot;,&quot;&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="argument_reporter_string_number" id="ndB7#KxgEfBa6kP{V3P2">
+            <field name="VALUE">d1</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="argument_reporter_string_number" id="S:r@r!KMIdWbSblCns-Z">
+            <field name="VALUE">d2</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <next>
+      <block type="ggb_intersections" id="vHq#In9`z}iB6d?Q5dOH">
+        <field name="OP">Intersection</field>
+        <value name="NOM">
+          <shadow type="text" id="e2{Q/VEp?LiYH}6Ifhtr">
+            <field name="TEXT"></field>
+          </shadow>
+        </value>
+        <value name="OBJ1">
+          <shadow type="text" id="(y?%cpLw^Bq52J~y}^}_">
+            <field name="TEXT">h1</field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="Kf.9yDZAa/M~~8[F-22V">
+            <field name="VALUE">d1</field>
+          </block>
+        </value>
+        <value name="OBJ2">
+          <shadow type="text" id="r9A%35k#tNpoBP)kZ`,I">
+            <field name="TEXT">h2</field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="w=Q!R?orB9PMcc0)j:c_">
+            <field name="VALUE">d2</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+  <block type="procedures_call_return" id="y3a.;zV=h3P{rxVQ|863" x="0" y="896">
+    <mutation proccode="inter %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+    <value name="ARG1">
+      <shadow type="text" id=",,5^^w^wxM-9p9Kngxf^">
+        <field name="TEXT">h1</field>
+      </shadow>
+    </value>
+    <value name="ARG2">
+      <shadow type="text" id="]VZZcro,kefy7am5duuN">
+        <field name="TEXT">h2</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="procedures_definition" id="PJP`OV4^P:[~fP=;1opf" x="-3" y="972">
+    <statement name="custom_block">
+      <block type="procedures_prototype" id="*t+F4*N7}|05Rs!MJmD!">
+        <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" argumentnames="[&quot;S&quot;,&quot;coté&quot;]" argumentdefaults="[&quot;&quot;,&quot;&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="argument_reporter_string_number" id="bZlJ!,LBV|7zaUdMIq)l">
+            <field name="VALUE">S</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="argument_reporter_string_number" id="s0g/Tl3Y3=C*V=UpC*RP">
+            <field name="VALUE">coté</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <next>
+      <block type="ggb_commande_2pts" id="|6Db8--s;(ed$~Xy^ML1">
+        <field name="OP">PerpendicularLine</field>
+        <value name="NOM">
+          <shadow type="text" id="1/zHVrM]rP^@jdLM.pMZ">
+            <field name="TEXT"></field>
+          </shadow>
+        </value>
+        <value name="OBJ1">
+          <shadow type="text" id="q|:(J2:[[0sEows585H[">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="U=fwb:5uk!KU:GmuCP]l">
+            <field name="VALUE">S</field>
+          </block>
+        </value>
+        <value name="OBJ2">
+          <shadow type="text" id="|@-|AI5Z02CWW2/$,CM%">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="j;WIc{`.]2=?D{r]unhB">
+            <field name="VALUE">coté</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+  <block type="data_setvariableto" id="J6V]-8AOxl}D(T{xFU+#" x="0" y="1440">
+    <field name="VARIABLE" id="lEsjpwqCE1T@Nl)xiqQ[" variabletype="">H</field>
+    <value name="VALUE">
+      <shadow type="text" id="7z]z[h2$gs5/a;L+#E,p">
+        <field name="TEXT">0</field>
+      </shadow>
+      <block type="procedures_call_return" id="8bF|597[xyUSi!d`6fO,">
+        <mutation proccode="orthocentre %s %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;,&quot;ARG3&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="text" id="d:Lk.BDqbCa#_Sintn+M">
+            <field name="TEXT">A</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="text" id="hx}]CRz(RN_)Im:Y1;qX">
+            <field name="TEXT">B</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <shadow type="text" id="X?__+|D/Y~QA8|buhV#Y">
+            <field name="TEXT">C</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="procedures_call" id="+XwcHRtVON0)Gq`#y02," x="0" y="1544">
+    <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+    <value name="ARG1">
+      <shadow type="text" id="h)Q?a;S=}3{J[,p%OYcZ">
+        <field name="TEXT">A</field>
+      </shadow>
+    </value>
+    <value name="ARG2">
+      <shadow type="text" id="%qR^G.OZ*hgi5C(EII2t">
+        <field name="TEXT">c1</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="procedures_call" id=",6Uy8WoTJF`2}oRc1RW#">
+        <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="text" id="~A66*ayC#fR*ZeSo_1k}">
+            <field name="TEXT">B</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow type="text" id="[d08pv]7x{$SSUGy:s|~">
+            <field name="TEXT">c2</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="procedures_call" id="!e!j+u$43V+L=L5!0U%Y">
+            <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+            <value name="ARG1">
+              <shadow type="text" id="ODfIiR(I@!X}3Li2qRNr">
+                <field name="TEXT">C</field>
+              </shadow>
+            </value>
+            <value name="ARG2">
+              <shadow type="text" id="M.%*|4mtOVLFu!{uUMl!">
+                <field name="TEXT">c3</field>
+              </shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="data_setvariableto" id="]0*{r8qbeE=*$Npb:0`Z" x="0" y="1744">
+    <field name="VARIABLE" id="zu4B.?|}#Ds,312sZ}Ca" variabletype="">h_1</field>
+    <value name="VALUE">
+      <shadow type="text" id="Cf@gZ[_g={`T_2qD1p{e">
+        <field name="TEXT">0</field>
+      </shadow>
+      <block type="procedures_call_return" id="=3D2D[yFV#mO-2j:`%m~">
+        <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="text" id="Z-8A)vbB)`*0ZfMSe4pT">
+            <field name="TEXT">A</field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="%,/=aGiW(|?i$O:},!fM">
+            <field name="VALUE">A_1</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow type="text" id="Y5F;W5ku?|Qz$#~I8Olf">
+            <field name="TEXT">s1</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="data_setvariableto" id=".MTHTVc}h+t(I![R7%gh">
+        <field name="VARIABLE" id="/CQB*.RuxR2V6$wl|Eg4" variabletype="">h_2</field>
+        <value name="VALUE">
+          <shadow type="text" id="bn}Jpe5+Y21nwUAa,h8@">
+            <field name="TEXT">0</field>
+          </shadow>
+          <block type="procedures_call_return" id="2nNk3vYfnTiR9.pM#Yxq">
+            <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+            <value name="ARG1">
+              <shadow type="text" id="z|fEhUth@=k0%K06;rNd">
+                <field name="TEXT">B</field>
+              </shadow>
+              <block type="argument_reporter_string_number" id="|chxf?n.KM*cRlC(`R1E">
+                <field name="VALUE">A_2</field>
+              </block>
+            </value>
+            <value name="ARG2">
+              <shadow type="text" id="u_sGPH}e^_(f?9{V^(fz">
+                <field name="TEXT">s2</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="data_setvariableto" id="nUy~nVd{F2{0*@,NB~NQ">
+            <field name="VARIABLE" id="b!q0R[p?KlG6O@cK2LCF" variabletype="">h_3</field>
+            <value name="VALUE">
+              <shadow type="text" id="k9A+:(|D+4`]qRWOv})1">
+                <field name="TEXT">0</field>
+              </shadow>
+              <block type="procedures_call_return" id="ZG,ZWtowRac_~%eqgV~S">
+                <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+                <value name="ARG1">
+                  <shadow type="text" id="l=D$$IkRxLYdbh7[vFHm">
+                    <field name="TEXT">C</field>
+                  </shadow>
+                  <block type="argument_reporter_string_number" id="AkZVaiF;D6fpv=HHc4ij">
+                    <field name="VALUE">A_3</field>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <shadow type="text" id="M^ydy;=.AF3la1Y6rde7">
+                    <field name="TEXT">s3</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="ggb_intersections" id="4q2`BBD~$g~A)c?$(=b/" x="0" y="1968">
+    <field name="OP">Intersection</field>
+    <value name="NOM">
+      <shadow type="text" id=",K1.61vV/uredZy1!lQE">
+        <field name="TEXT"></field>
+      </shadow>
+    </value>
+    <value name="OBJ1">
+      <shadow type="text" id="QG6u0x+DNPcWyvj2@9*)">
+        <field name="TEXT">h1</field>
+      </shadow>
+      <block type="procedures_call_return" id="KJac_~;36#Nq8l7F_gid">
+        <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="text" id=")oekp[zQ_XpmF*)Z8UyQ">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="1Sg7,sXL=Lv8DO:23$?c">
+            <field name="VALUE">A_1</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow type="text" id="1sIU1wL!MTFkhE0Ms!,d">
+            <field name="TEXT">s1</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+    <value name="OBJ2">
+      <shadow type="text" id="^dpp)IC52.`C!m},Ni#9">
+        <field name="TEXT">h2</field>
+      </shadow>
+      <block type="procedures_call_return" id="U[8zjA%EmfyOdGJ;@rPl">
+        <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="text" id="BbJv::ccp`z$C6ub;hHn">
+            <field name="TEXT"></field>
+          </shadow>
+          <block type="argument_reporter_string_number" id="t$Wq.1Ke0]`tRd;L@pGA">
+            <field name="VALUE">A_2</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow type="text" id="#*$8+XSTo/VG:mNi4:X3">
+            <field name="TEXT">s2</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="procedures_call" id=".a5xc3!rh+W;_oLN;hDg" x="0" y="2080">
+    <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+    <value name="ARG1">
+      <shadow type="text" id="AWv.k]S03}f52CqJgcUe">
+        <field name="TEXT">A</field>
+      </shadow>
+      <block type="argument_reporter_string_number" id="UM_Ea-4QsNb-1jIZP2~k">
+        <field name="VALUE">A_1</field>
+      </block>
+    </value>
+    <value name="ARG2">
+      <shadow type="text" id="Rs4]j)(Aq6LW0P~R,UbH">
+        <field name="TEXT">s1</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="procedures_call" id="z!o7`Q5tl46iP1.,O,=!">
+        <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+        <value name="ARG1">
+          <shadow type="text" id="zq_Nu^]4$zDq_B}Q|eW)">
+            <field name="TEXT">A</field>
+          </shadow>
+          <block type="argument_reporter_string_number" id=";YP8DuE6=Iz@y}G~ag*|">
+            <field name="VALUE">A_2</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow type="text" id="w=f_!$JT^eQw?ZjWjo6G">
+            <field name="TEXT">s2</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="procedures_call" id=",}t84$~8/QUjc~@onS4~">
+            <mutation proccode="hauteur %s %s" argumentids="[&quot;ARG1&quot;,&quot;ARG2&quot;]" warp="false"></mutation>
+            <value name="ARG1">
+              <shadow type="text" id="8{5,H+ugK+l?s/U41#MS">
+                <field name="TEXT">A</field>
+              </shadow>
+              <block type="argument_reporter_string_number" id="n^n2CQ?C?Q*ME)Sjhx*q">
+                <field name="VALUE">A_3</field>
+              </block>
+            </value>
+            <value name="ARG2">
+              <shadow type="text" id="?|H^M3Q(7l]4LX*WNp71">
+                <field name="TEXT">s3</field>
+              </shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="data_setvariableto" id="/5%vdDOiW,{}Iq]sCt{K" x="0" y="2280">
+    <field name="VARIABLE" id="lEsjpwqCE1T@Nl)xiqQ[" variabletype="">H</field>
+    <value name="VALUE">
+      <shadow type="text" id="3,26-2{Z_~VPh%j@RH]4">
+        <field name="TEXT">0</field>
+      </shadow>
+    </value>
+  </block>
+</xml>

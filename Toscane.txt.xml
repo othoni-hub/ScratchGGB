@@ -1,0 +1,362 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="list" id="A?p4BpA4wnyQ$$$A3Sqh" islocal="false" iscloud="false">L_abscisses</variable>
+    <variable type="list" id="N!egx=aB~4w*.V43|wo3" islocal="false" iscloud="false">L_ordonnées</variable>
+    <variable type="" id="={FlH2ggi^0@/@sH9TzF" islocal="false" iscloud="false">N</variable>
+    <variable type="" id="[A}k?6^d.j,bEV^AK^?," islocal="false" iscloud="false">k</variable>
+    <variable type="" id="/Fs:1SoXpM_FF7qStzO^" islocal="false" iscloud="false">dé1</variable>
+    <variable type="" id="XUwXzZO0pXlB.;rB:XGX" islocal="false" iscloud="false">dé2</variable>
+    <variable type="" id="!BoG^2?;-S%eMcq+8zg8" islocal="false" iscloud="false">dé3</variable>
+    <variable type="" id="x*dO[BCx.-8er,O/Sq)h" islocal="false" iscloud="false">tot</variable>
+  </variables>
+  <block type="procedures_definition" id="~]r?zeo#@L:4:-Gg0Prx" x="349" y="-1017">
+    <statement name="custom_block">
+      <block type="procedures_prototype" id="d(U4L$hi@Wz3p#]#u_ND">
+        <mutation proccode="initialisation_L_abscisses" argumentids="[]" argumentnames="[]" argumentdefaults="[]" warp="false"></mutation>
+      </block>
+    </statement>
+    <next>
+      <block type="data_setvariableto" id="tMQ8ph%juMSjL%qO},~1">
+        <field name="VARIABLE" id="[A}k?6^d.j,bEV^AK^?," variabletype="">k</field>
+        <value name="VALUE">
+          <shadow type="text" id="]_RN54-}!O7Sqi%/aw6,">
+            <field name="TEXT">1</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="control_repeat" id="rk!kLV;p/qV]busy:DR@">
+            <value name="TIMES">
+              <shadow type="math_whole_number" id="d/lR`h=uo;Li:S7e(wQY">
+                <field name="NUM">18</field>
+              </shadow>
+            </value>
+            <statement name="SUBSTACK">
+              <block type="data_addtolist" id="@0,$)^$u9~4zHVsQv,.8">
+                <field name="LIST" id="A?p4BpA4wnyQ$$$A3Sqh" variabletype="list">L_abscisses</field>
+                <value name="ITEM">
+                  <shadow type="text" id="dF:gA?WY}m_e+YbH+KSM">
+                    <field name="TEXT">chose</field>
+                  </shadow>
+                  <block type="data_variable" id="OB%1gPSLYZxw^Equ0I(N">
+                    <field name="VARIABLE" id="[A}k?6^d.j,bEV^AK^?," variabletype="">k</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="data_addtolist" id="CIdecI+Jo:;z;yS`u}9k">
+                    <field name="LIST" id="N!egx=aB~4w*.V43|wo3" variabletype="list">L_ordonnées</field>
+                    <value name="ITEM">
+                      <shadow type="text" id="WVn9!Dvuhi)Xov`cf!A7">
+                        <field name="TEXT">0</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="data_changevariableby" id="h@4)r)n*AwmyoG^K#ml2">
+                        <field name="OP">+</field>
+                        <field name="VARIABLE" id="[A}k?6^d.j,bEV^AK^?," variabletype="">k</field>
+                        <value name="VALUE">
+                          <shadow type="math_number" id="nm!Ul5(UsQsVtx]3G*^E">
+                            <field name="NUM">1</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="procedures_definition" id="h}wn!g$MFOH]act{%~1B" x="120" y="-720">
+    <statement name="custom_block">
+      <block type="procedures_prototype" id="%X3h|J*~QEdMDfvz;e2@">
+        <mutation proccode="N_tirages" argumentids="[]" argumentnames="[]" argumentdefaults="[]" warp="false"></mutation>
+      </block>
+    </statement>
+    <next>
+      <block type="control_repeat" id="h;r[k~MXaR|xR/wEeu1P">
+        <value name="TIMES">
+          <shadow type="math_whole_number" id="~7kc0F`z*.cqSCpZ8q#1">
+            <field name="NUM">10</field>
+          </shadow>
+          <block type="data_variable" id="+6[h`jk2Dd(rI-jp7s8o">
+            <field name="VARIABLE" id="={FlH2ggi^0@/@sH9TzF" variabletype="">N</field>
+          </block>
+        </value>
+        <statement name="SUBSTACK">
+          <block type="data_setvariableto" id="Urx]yke.d}{}UX8,hiyQ">
+            <field name="VARIABLE" id="/Fs:1SoXpM_FF7qStzO^" variabletype="">dé1</field>
+            <value name="VALUE">
+              <shadow type="text" id="6}z~NoCVbiwox+H{]qtD">
+                <field name="TEXT">0</field>
+              </shadow>
+              <block type="operator_random" id="rH2jR6QP%lYo#!%WHk6^">
+                <value name="FROM">
+                  <shadow type="math_number" id="#|otCwA8pC8yEaK,;nTW">
+                    <field name="NUM">1</field>
+                  </shadow>
+                </value>
+                <value name="TO">
+                  <shadow type="math_number" id="E2gs4oPT$c9t+5$0oy6~">
+                    <field name="NUM">6</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="data_setvariableto" id="q8l~jUGaMbO6Gm0L3Mx,">
+                <field name="VARIABLE" id="XUwXzZO0pXlB.;rB:XGX" variabletype="">dé2</field>
+                <value name="VALUE">
+                  <shadow type="text" id="U[n1]^z8gl}4g1HnlMuK">
+                    <field name="TEXT">0</field>
+                  </shadow>
+                  <block type="operator_random" id="L`flg`82vrc+3p#)0if]">
+                    <value name="FROM">
+                      <shadow type="math_number" id="([wU!bpxO{66KJPDX,XF">
+                        <field name="NUM">1</field>
+                      </shadow>
+                    </value>
+                    <value name="TO">
+                      <shadow type="math_number" id="B)kV%DZdu9$+[MGpZxPI">
+                        <field name="NUM">6</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="data_setvariableto" id=",FH~Yfd!WImhp90.V|u:">
+                    <field name="VARIABLE" id="!BoG^2?;-S%eMcq+8zg8" variabletype="">dé3</field>
+                    <value name="VALUE">
+                      <shadow type="text" id="qnYaMWCwwd+PAn[U{6:3">
+                        <field name="TEXT">0</field>
+                      </shadow>
+                      <block type="operator_random" id="2Pi7#GV8`cs`q`tSFqS(">
+                        <value name="FROM">
+                          <shadow type="math_number" id="i71kr|j+(,d}F+%(Kr/V">
+                            <field name="NUM">1</field>
+                          </shadow>
+                        </value>
+                        <value name="TO">
+                          <shadow type="math_number" id="7MN`1ji=Fyi`(2tCJBt4">
+                            <field name="NUM">6</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="data_setvariableto" id="sNXu:+)1++jJh={vikWG">
+                        <field name="VARIABLE" id="x*dO[BCx.-8er,O/Sq)h" variabletype="">tot</field>
+                        <value name="VALUE">
+                          <shadow type="text" id="oRurl~cG^W)/y1|jD/(w">
+                            <field name="TEXT">0</field>
+                          </shadow>
+                          <block type="operator_add" id="@o@@kwtU8B6VW!2Dc[Eg">
+                            <value name="NUM1">
+                              <shadow type="math_number" id="iyl22ob]#*ATea^9Mgtg">
+                                <field name="NUM"></field>
+                              </shadow>
+                              <block type="data_variable" id="1=HOTCp%(B_~ZT.e_4+N">
+                                <field name="VARIABLE" id="/Fs:1SoXpM_FF7qStzO^" variabletype="">dé1</field>
+                              </block>
+                            </value>
+                            <value name="NUM2">
+                              <shadow type="math_number" id="dXpU!q}rs{==4%91;Q~z">
+                                <field name="NUM"></field>
+                              </shadow>
+                              <block type="operator_add" id="dm1V]vwk;@yaf3uz|yj:">
+                                <value name="NUM1">
+                                  <shadow type="math_number" id="nWMmo]8yJ8I$.Q*hW8`t">
+                                    <field name="NUM"></field>
+                                  </shadow>
+                                  <block type="data_variable" id="?XCmces*Z[,CRrqlFYoP">
+                                    <field name="VARIABLE" id="XUwXzZO0pXlB.;rB:XGX" variabletype="">dé2</field>
+                                  </block>
+                                </value>
+                                <value name="NUM2">
+                                  <shadow type="math_number" id="}cH0pn1,X`{@vq1cYn/k">
+                                    <field name="NUM"></field>
+                                  </shadow>
+                                  <block type="data_variable" id="^[)^zHY4L1MULrz-8k9)">
+                                    <field name="VARIABLE" id="!BoG^2?;-S%eMcq+8zg8" variabletype="">dé3</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="data_replaceitemoflist" id="CNa9o]mTZ$$N!G+nKG:l">
+                            <field name="LIST" id="N!egx=aB~4w*.V43|wo3" variabletype="list">L_ordonnées</field>
+                            <value name="INDEX">
+                              <shadow type="math_integer" id="6~_(VTiFpC[?2]?E${ty">
+                                <field name="NUM">1</field>
+                              </shadow>
+                              <block type="data_variable" id="hS%+]d[g@rRr|OZ#ORW2">
+                                <field name="VARIABLE" id="x*dO[BCx.-8er,O/Sq)h" variabletype="">tot</field>
+                              </block>
+                            </value>
+                            <value name="ITEM">
+                              <shadow type="text" id="!#d!swHH/y9{^Q_0?2p1">
+                                <field name="TEXT">chose</field>
+                              </shadow>
+                              <block type="operator_add" id="5wlT+JNd#7CM,.{*a)0$">
+                                <value name="NUM1">
+                                  <shadow type="math_number" id="N]d|5(,O)Is,KGHQ3U])">
+                                    <field name="NUM"></field>
+                                  </shadow>
+                                  <block type="data_itemoflist" id="lZNxxi]%|8pQ^fhZ`(W@">
+                                    <field name="LIST" id="N!egx=aB~4w*.V43|wo3" variabletype="list">L_ordonnées</field>
+                                    <value name="INDEX">
+                                      <shadow type="math_integer" id="wluP{~0?9ie)W@oGC~6x">
+                                        <field name="NUM">1</field>
+                                      </shadow>
+                                      <block type="data_variable" id="1/_Ut2*RqQ3-@7c89F/H">
+                                        <field name="VARIABLE" id="x*dO[BCx.-8er,O/Sq)h" variabletype="">tot</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <value name="NUM2">
+                                  <shadow type="math_number" id="02ri+@[)rb6$867}lkZL">
+                                    <field name="NUM">1</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="procedures_definition" id="6dZ)vGA?)HQzRvLm*~l-" x="-78" y="-348">
+    <statement name="custom_block">
+      <block type="procedures_prototype" id=";XG7pOh{d%eeKO(?Et-)">
+        <mutation proccode="Histogramme" argumentids="[]" argumentnames="[]" argumentdefaults="[]" warp="false"></mutation>
+      </block>
+    </statement>
+    <next>
+      <block type="data_setvariableto" id="paWKX?^,Pt+[+*v|%[aP">
+        <field name="VARIABLE" id="[A}k?6^d.j,bEV^AK^?," variabletype="">k</field>
+        <value name="VALUE">
+          <shadow type="text" id="y`DoBAq;Qb|aqXm{UD(#">
+            <field name="TEXT">1</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="control_repeat" id="?[pNe3tk|wAY+US:(x,G">
+            <value name="TIMES">
+              <shadow type="math_whole_number" id="%taJVi}fR4CUlpf#X3tI">
+                <field name="NUM">18</field>
+              </shadow>
+            </value>
+            <statement name="SUBSTACK">
+              <block type="ggb_point" id="2xqIB=IzPz36yuIPQ,p*">
+                <value name="NOM">
+                  <shadow type="text" id="@0vHCAQR?)JLQ#qym[5$">
+                    <field name="TEXT"></field>
+                  </shadow>
+                </value>
+                <value name="X">
+                  <shadow type="math_number" id="l.kRTv^@$WabqfINij(.">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="data_itemoflist" id=",A%ep}Rh;hScS{(J:Q!P">
+                    <field name="LIST" id="A?p4BpA4wnyQ$$$A3Sqh" variabletype="list">L_abscisses</field>
+                    <value name="INDEX">
+                      <shadow type="math_integer" id="kSFXcui3FvTg?yrj`4!0">
+                        <field name="NUM">1</field>
+                      </shadow>
+                      <block type="data_variable" id="xY#=?Thl1%T?x%Llp:9F">
+                        <field name="VARIABLE" id="[A}k?6^d.j,bEV^AK^?," variabletype="">k</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="Y">
+                  <shadow type="math_number" id="I`$eCpxpcVA=mukh}arl">
+                    <field name="NUM">2</field>
+                  </shadow>
+                  <block type="operator_divide" id="jNg?S#x{}^w~z{c*+_qf">
+                    <value name="NUM1">
+                      <shadow type="math_number" id="GY6.)8Ez;U((cG%2fP}@">
+                        <field name="NUM"></field>
+                      </shadow>
+                      <block type="data_itemoflist" id="4yWjpIvGA9jw+.B]ZDYN">
+                        <field name="LIST" id="N!egx=aB~4w*.V43|wo3" variabletype="list">L_ordonnées</field>
+                        <value name="INDEX">
+                          <shadow type="math_integer" id="6gnGcZWIEnfc$W~uBxg1">
+                            <field name="NUM">1</field>
+                          </shadow>
+                          <block type="data_variable" id="22cs@b0c3h]KnpM|o%yD">
+                            <field name="VARIABLE" id="[A}k?6^d.j,bEV^AK^?," variabletype="">k</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="NUM2">
+                      <shadow type="math_number" id="ai^Dot,!W@PVu8q0XTi^">
+                        <field name="NUM"></field>
+                      </shadow>
+                      <block type="data_variable" id="W6*2[|V.x|p,D=VNsn@2">
+                        <field name="VARIABLE" id="={FlH2ggi^0@/@sH9TzF" variabletype="">N</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="data_changevariableby" id="|]%LXJ.DL=}cA52f/S.O">
+                    <field name="OP">+</field>
+                    <field name="VARIABLE" id="[A}k?6^d.j,bEV^AK^?," variabletype="">k</field>
+                    <value name="VALUE">
+                      <shadow type="math_number" id="[-C*X-YJdyWb}Pz8dKJ@">
+                        <field name="NUM">1</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="event_whenflagclicked" id="w:1i[$^?J)c+^r0;Lpti" x="-74" y="21">
+    <field name="MY_ICON_BUTTON">./js/scratch/media/green-flag.svg</field>
+    <next>
+      <block type="data_setvariableto" id="lu4Fkyb!f.EC}?3-VFiQ">
+        <field name="VARIABLE" id="={FlH2ggi^0@/@sH9TzF" variabletype="">N</field>
+        <value name="VALUE">
+          <shadow type="text" id="[f-?/g=bu`:md,`(=7;C">
+            <field name="TEXT">10</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="procedures_call" id="q|ExY4BK:w`m]wCRdwYB">
+            <mutation proccode="initialisation_L_abscisses" argumentids="[]" warp="false"></mutation>
+            <next>
+              <block type="procedures_call" id="D-E?^}_R!abo,ed#:d9{">
+                <mutation proccode="N_tirages" argumentids="[]" warp="false"></mutation>
+                <next>
+                  <block type="procedures_call" id="r93j?t1Wos!fwcYlBeB?">
+                    <mutation proccode="Histogramme" argumentids="[]" warp="false"></mutation>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
